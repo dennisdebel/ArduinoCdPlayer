@@ -10,12 +10,13 @@ Sources from [ATAPIDUINO](http://singlevalve.web.fc2.com/Atapiduino/atapiduino.h
 
 ## Testing
 * Philips DVDROM DROM6116/34 (2004)
+* NEC DV-5800A (2001) ("DVD-ROM READER")
 
 ## Compatible drives
 * NEC CDR 1800A (1997)
 * Ultima Electronics CHA-50 (????)
 * LITE-ON LTN-403L (2000)
-* LITE ON LTN486S (2001)
+* LITE-ON LTN486S (2001)
 * HITACHI CDR-8130 (1997)
 * HITACHI CDR-8230 (1997)
 * LG CRD-8320B (1998)

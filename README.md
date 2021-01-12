@@ -43,4 +43,4 @@ Sources from [ATAPIDUINO](http://singlevalve.web.fc2.com/Atapiduino/atapiduino.h
 * https://hackaday.io/project/24905-using-old-cd-drive-as-a-music-player
 * http://singlevalve.web.fc2.com/Atapiduino/atapiduino.htm 
 * https://github.com/lmiori92/AtapiduinoSingleChip
-* productized version of similar idea: [CD-ROM DVD-ROM IDE ROM Audio Player controller DIY kit ROM to Turntable](https://www.ebay.co.uk/itm/CD-ROM-DVD-ROM-IDE-ROM-Audio-Player-controller-DIY-kit-ROM-to-Turntable/324207457799?_trkparms=aid%3D1110006%26algo%3DHOMESPLICE.SIM%26ao%3D1%26asc%3D20190920091355%26meid%3D7421b4ffda7d4caebe88fb4209a17d13%26pid%3D100036%26rk%3D3%26rkt%3D12%26sd%3D193152820628%26itm%3D324207457799%26pmt%3D0%26noa%3D1%26pg%3D2047675%26algv%3DDefaultOrganic%26brand%3DUnbranded&_trksid=p2047675.c100036.m2109CD-ROM DVD-ROM IDE ROM Audio Player controller DIY kit ROM to Turntable)
+* productized version of similar idea: [CD-ROM DVD-ROM IDE ROM Audio Player controller DIY kit ROM to Turntable](https://www.ebay.co.uk/itm/CD-ROM-DVD-ROM-IDE-ROM-Audio-Player-controller-DIY-kit-ROM-to-Turntable/324207457799)

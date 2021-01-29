@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Arduino_ProMini-New_Library
+# Arduino_ProMini-New_Library-ArduinoCd-rescue
 #
-DEF Arduino_ProMini-New_Library A 0 40 Y Y 1 F N
+DEF Arduino_ProMini-New_Library-ArduinoCd-rescue A 0 40 Y Y 1 F N
 F0 "A" -200 1025 50 H V R CNN
-F1 "Arduino_ProMini-New_Library" -200 950 50 H V R CNN
+F1 "Arduino_ProMini-New_Library-ArduinoCd-rescue" -200 950 50 H V R CNN
 F2 "Module:Arduino_ProMini" 150 -950 50 H I L CNN
 F3 "" 0 -1000 50 H I C CNN
 $FPLIST
@@ -41,11 +41,11 @@ X D6 9 -500 0 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# LT3042-DS
+# LT3042-DS-ArduinoCd-rescue
 #
-DEF LT3042-DS U 0 40 Y Y 1 F N
+DEF LT3042-DS-ArduinoCd-rescue U 0 40 Y Y 1 F N
 F0 "U" -250 200 50 H V C CNN
-F1 "LT3042-DS" 0 50 50 H V C CNN
+F1 "LT3042-DS-ArduinoCd-rescue" 0 50 50 H V C CNN
 F2 "" -250 200 50 H I C CNN
 F3 "" -250 200 50 H I C CNN
 DRAW
@@ -63,11 +63,11 @@ X OUTS 9 650 -150 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# PCA9555PW-ArdCd-Library
+# PCA9555PW-ArdCd-Library-ArduinoCd-rescue
 #
-DEF PCA9555PW-ArdCd-Library U 0 40 Y Y 1 F N
+DEF PCA9555PW-ArdCd-Library-ArduinoCd-rescue U 0 40 Y Y 1 F N
 F0 "U" 300 700 50 H V C CNN
-F1 "PCA9555PW-ArdCd-Library" 200 850 50 H V C CNN
+F1 "PCA9555PW-ArdCd-Library-ArduinoCd-rescue" 200 850 50 H V C CNN
 F2 "" 300 700 50 H I C CNN
 F3 "" 300 700 50 H I C CNN
 DRAW
@@ -99,11 +99,11 @@ X IO0_5 9 -250 100 200 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# WM8805-DS
+# WM8805-DS-ArduinoCd-rescue
 #
-DEF WM8805-DS U 0 40 Y Y 1 F N
+DEF WM8805-DS-ArduinoCd-rescue U 0 40 Y Y 1 F N
 F0 "U" -550 1200 50 H V L CNN
-F1 "WM8805-DS" 350 1200 50 H V L CNN
+F1 "WM8805-DS-ArduinoCd-rescue" 350 1200 50 H V L CNN
 F2 "" 0 100 50 H V C CNN
 F3 "" 0 100 50 H V C CNN
 DRAW
@@ -139,11 +139,11 @@ X CSB/GPO2 9 -700 200 150 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# fcr684204t-DS
+# fcr684204t-DS-ArduinoCd-rescue
 #
-DEF fcr684204t-DS J 0 30 Y Y 1 F N
+DEF fcr684204t-DS-ArduinoCd-rescue J 0 30 Y Y 1 F N
 F0 "J" 0 400 50 H V C CNN
-F1 "fcr684204t-DS" -15 -585 50 H V C CNN
+F1 "fcr684204t-DS-ArduinoCd-rescue" -15 -585 50 H V C CNN
 F2 "" -45 -60 50 H V C CNN
 F3 "" -45 -60 50 H V C CNN
 DRAW

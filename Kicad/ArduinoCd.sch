@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:ArduinoCd-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ArduinoCd-rescue:PCA9555PW-ArdCd-Library U2
+L ArduinoCd-rescue:PCA9555PW-ArdCd-Library-ArduinoCd-rescue U2
 U 1 1 5F6F9FDD
 P 5400 2150
 F 0 "U2" H 5625 2975 50  0000 C CNN
@@ -26,7 +25,7 @@ F 3 "" H 5700 2850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ArduinoCd-rescue:WM8805-DS U3
+L ArduinoCd-rescue:WM8805-DS-ArduinoCd-rescue U3
 U 1 1 5F6FA14A
 P 7650 5275
 F 0 "U3" H 7650 6542 50  0000 C CNN
@@ -37,7 +36,7 @@ F 3 "http://www.analog.com/static/imported-files/data_sheets/AD390MIL.pdf" H 765
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduinoCd-rescue:PCA9555PW-ArdCd-Library U1
+L ArduinoCd-rescue:PCA9555PW-ArdCd-Library-ArduinoCd-rescue U1
 U 1 1 5F6FA244
 P 4000 5500
 F 0 "U1" H 4225 6325 50  0000 C CNN
@@ -114,17 +113,6 @@ F 3 "~" H 3200 2175 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ArduinoCd-rescue:fcr684204t-DS J4
-U 1 1 5F6FCDE8
-P 1400 1115
-F 0 "J4" V 1685 1515 50  0000 L CNN
-F 1 "fcr684204t" H 1135 1515 50  0000 L CNN
-F 2 "DS:FCR684204T" H 1355 1055 50  0001 C CNN
-F 3 "" H 1355 1055 50  0000 C CNN
-	1    1400 1115
-	0    1    1    0   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x04 J17
 U 1 1 5F6FD1C0
 P 10800 4250
@@ -158,18 +146,7 @@ F 3 "~" H 9425 2500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J8
-U 1 1 5F6FD9DB
-P 2825 875
-F 0 "J8" H 2905 867 50  0000 L CNN
-F 1 "S/PDIF-IN0" H 2905 776 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2825 875 50  0001 C CNN
-F 3 "~" H 2825 875 50  0001 C CNN
-	1    2825 875 
-	1    0    0    -1  
-$EndComp
-$Comp
-L ArduinoCd-rescue:Arduino_ProMini-New_Library A1
+L ArduinoCd-rescue:Arduino_ProMini-New_Library-ArduinoCd-rescue A1
 U 1 1 5F709140
 P 1700 3700
 F 0 "A1" H 1700 4878 50  0000 C CNN
@@ -1476,8 +1453,6 @@ $EndComp
 Wire Wire Line
 	9750 3925 9825 3925
 Wire Wire Line
-	9750 3925 9750 4075
-Wire Wire Line
 	9750 4075 9825 4075
 Wire Wire Line
 	10025 3925 10025 4000
@@ -2089,8 +2064,6 @@ DEMP_5
 Text GLabel 7150 2875 0    31   UnSpc ~ 0
 DEMP_3
 Wire Notes Line
-	6800 525  6800 2950
-Wire Notes Line
 	7975 525  7975 2950
 Text GLabel 1050 3600 0    31   UnSpc ~ 0
 DEMP_5
@@ -2122,32 +2095,6 @@ Wire Wire Line
 Wire Wire Line
 	1800 4775 1750 4775
 Connection ~ 1750 4775
-Text GLabel 850  905  0    31   UnSpc ~ 0
-SPDIF-OUT
-$Comp
-L power:GND #PWR0119
-U 1 1 5F762C16
-P 850 1090
-F 0 "#PWR0119" H 850 840 50  0001 C CNN
-F 1 "GND" H 968 1009 50  0000 C CNN
-F 2 "" H 850 1090 50  0001 C CNN
-F 3 "" H 850 1090 50  0001 C CNN
-	1    850  1090
-	1    0    0    -1  
-$EndComp
-Text GLabel 850  1000 0    31   UnSpc ~ 0
-3v3
-Wire Wire Line
-	850  1000 950  1000
-Wire Wire Line
-	950  905  850  905 
-Wire Wire Line
-	950  1090 850  1090
-NoConn ~ 1300 1515
-NoConn ~ 1400 1515
-NoConn ~ 1700 1515
-NoConn ~ 1600 1515
-NoConn ~ 1500 1515
 $Comp
 L Connector_Generic:Conn_01x02 J2
 U 1 1 5FAAD273
@@ -2190,45 +2137,6 @@ Wire Wire Line
 	1900 2700 1900 2650
 Wire Wire Line
 	1900 2650 2000 2650
-$Comp
-L Connector_Generic:Conn_01x02 J9
-U 1 1 5FE8BC03
-P 2825 1175
-F 0 "J9" H 2905 1167 50  0000 L CNN
-F 1 "S/PDIF-IN1" H 2905 1076 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2825 1175 50  0001 C CNN
-F 3 "~" H 2825 1175 50  0001 C CNN
-	1    2825 1175
-	1    0    0    -1  
-$EndComp
-Text GLabel 2375 1175 0    31   UnSpc ~ 0
-SPDIF-IN1
-Text GLabel 2375 875  0    31   UnSpc ~ 0
-SPDIF-IN0
-Wire Wire Line
-	2375 875  2625 875 
-Wire Wire Line
-	2375 1175 2625 1175
-$Comp
-L power:GND #PWR0120
-U 1 1 5FEE934D
-P 2525 1325
-F 0 "#PWR0120" H 2525 1075 50  0001 C CNN
-F 1 "GND" H 2675 1275 50  0000 C CNN
-F 2 "" H 2525 1325 50  0001 C CNN
-F 3 "" H 2525 1325 50  0001 C CNN
-	1    2525 1325
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2525 1325 2525 1275
-Wire Wire Line
-	2525 975  2625 975 
-Wire Wire Line
-	2625 1275 2525 1275
-Connection ~ 2525 1275
-Wire Wire Line
-	2525 1275 2525 975 
 Text GLabel 3100 2475 3    31   UnSpc ~ 0
 SDA_5
 Text GLabel 3200 2475 3    31   UnSpc ~ 0
@@ -2391,8 +2299,6 @@ Wire Wire Line
 	9975 2450 9975 2400
 Wire Wire Line
 	9975 2400 10075 2400
-Wire Wire Line
-	9975 2400 9875 2400
 Connection ~ 9975 2400
 Wire Wire Line
 	10675 2400 10775 2400
@@ -2419,33 +2325,12 @@ Wire Wire Line
 Wire Wire Line
 	9825 2500 9825 2725
 Connection ~ 9975 2725
-$Comp
-L Device:D_Small D2
-U 1 1 605A587E
-P 9725 2400
-F 0 "D2" H 9725 2287 50  0000 C CNN
-F 1 "D_Small" H 9725 2286 50  0001 C CNN
-F 2 "Diode_SMD:D_SMB_Handsoldering" V 9725 2400 50  0001 C CNN
-F 3 "~" V 9725 2400 50  0001 C CNN
-	1    9725 2400
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
-	9625 2500 9825 2500
+	9625 2500 9650 2500
 Wire Notes Line
 	6800 2950 11200 2950
 Text Notes 9450 2200 0    50   ~ 0
 12v->5v
-Text Notes 1825 675  0    50   ~ 0
-S/PDIF in/out
-Wire Notes Line
-	525  550  3500 550 
-Wire Notes Line
-	3500 550  3500 1675
-Wire Notes Line
-	3500 1675 525  1675
-Wire Notes Line
-	525  1675 525  550 
 $Comp
 L Device:LED D1
 U 1 1 6064CBBA
@@ -2582,7 +2467,7 @@ Wire Wire Line
 	9875 2300 9875 2400
 Connection ~ 9875 2400
 Wire Wire Line
-	9875 2400 9825 2400
+	9875 2400 9850 2400
 Text GLabel 10200 3325 0    31   UnSpc ~ 0
 12v
 Wire Wire Line
@@ -2634,7 +2519,7 @@ Connection ~ 10525 3150
 Wire Wire Line
 	10525 3100 10525 3150
 $Comp
-L ArduinoCd-rescue:LT3042-DS U6
+L ArduinoCd-rescue:LT3042-DS-ArduinoCd-rescue U6
 U 1 1 60CC3391
 P 9800 900
 F 0 "U6" H 9750 1175 50  0000 C CNN
@@ -2720,4 +2605,174 @@ Wire Notes Line
 	5850 6500 6700 6500
 Wire Notes Line
 	6700 6500 6700 5700
+Text GLabel 9750 3800 1    31   UnSpc ~ 0
+3v3
+Wire Wire Line
+	9750 3750 9750 3925
+Connection ~ 9750 3925
+Wire Wire Line
+	9750 3925 9750 4075
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J18
+U 1 1 600678A5
+P 7500 3300
+F 0 "J18" V 7504 3680 50  0000 L CNN
+F 1 "Eurorack_02x08" V 7595 3680 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 7500 3300 50  0001 C CNN
+F 3 "~" H 7500 3300 50  0001 C CNN
+	1    7500 3300
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	6800 525  6800 3650
+Wire Wire Line
+	9650 2500 9650 3050
+Wire Wire Line
+	9650 3050 7700 3050
+Wire Wire Line
+	7700 3050 7700 3100
+Connection ~ 9650 2500
+Wire Wire Line
+	9650 2500 9825 2500
+Wire Wire Line
+	7700 3100 7600 3100
+Connection ~ 7700 3100
+Connection ~ 7600 3100
+Wire Wire Line
+	7600 3100 7500 3100
+Text Notes 8700 3600 0    50   ~ 0
+EURORACK POWER HEADER
+NoConn ~ 7300 3100
+NoConn ~ 7200 3100
+NoConn ~ 7100 3100
+NoConn ~ 7800 3100
+NoConn ~ 7800 3600
+NoConn ~ 7700 3600
+NoConn ~ 7600 3600
+NoConn ~ 7500 3600
+NoConn ~ 7400 3600
+NoConn ~ 7300 3600
+NoConn ~ 7200 3600
+NoConn ~ 7100 3600
+$Comp
+L Device:D_Small D2
+U 1 1 605A587E
+P 9725 2400
+F 0 "D2" H 9725 2287 50  0000 C CNN
+F 1 "D_Small" H 9725 2286 50  0001 C CNN
+F 2 "Diode_SMD:D_SMB_Handsoldering" V 9725 2400 50  0001 C CNN
+F 3 "~" V 9725 2400 50  0001 C CNN
+	1    9725 2400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9975 2400 9875 2400
+Wire Wire Line
+	9850 2400 9850 3000
+Wire Wire Line
+	9850 3000 7400 3000
+Wire Wire Line
+	7400 3000 7400 3100
+Connection ~ 9850 2400
+Wire Wire Line
+	9850 2400 9825 2400
+Wire Notes Line
+	6800 3650 10050 3650
+Wire Notes Line
+	525  1675 525  550 
+Wire Notes Line
+	3500 1675 525  1675
+Wire Notes Line
+	3500 550  3500 1675
+Wire Notes Line
+	525  550  3500 550 
+Text Notes 1825 675  0    50   ~ 0
+S/PDIF in/out
+Wire Wire Line
+	2525 1275 2525 975 
+Wire Wire Line
+	2625 1275 2525 1275
+Wire Wire Line
+	2525 975  2625 975 
+Connection ~ 2525 1275
+Wire Wire Line
+	2525 1325 2525 1275
+$Comp
+L power:GND #PWR0120
+U 1 1 5FEE934D
+P 2525 1325
+F 0 "#PWR0120" H 2525 1075 50  0001 C CNN
+F 1 "GND" H 2675 1275 50  0000 C CNN
+F 2 "" H 2525 1325 50  0001 C CNN
+F 3 "" H 2525 1325 50  0001 C CNN
+	1    2525 1325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2375 1175 2625 1175
+Wire Wire Line
+	2375 875  2625 875 
+Text GLabel 2375 875  0    31   UnSpc ~ 0
+SPDIF-IN0
+Text GLabel 2375 1175 0    31   UnSpc ~ 0
+SPDIF-IN1
+$Comp
+L Connector_Generic:Conn_01x02 J9
+U 1 1 5FE8BC03
+P 2825 1175
+F 0 "J9" H 2905 1167 50  0000 L CNN
+F 1 "S/PDIF-IN1" H 2905 1076 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2825 1175 50  0001 C CNN
+F 3 "~" H 2825 1175 50  0001 C CNN
+	1    2825 1175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J8
+U 1 1 5F6FD9DB
+P 2825 875
+F 0 "J8" H 2905 867 50  0000 L CNN
+F 1 "S/PDIF-IN0" H 2905 776 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2825 875 50  0001 C CNN
+F 3 "~" H 2825 875 50  0001 C CNN
+	1    2825 875 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  905  850  905 
+Wire Wire Line
+	950  1090 850  1090
+NoConn ~ 1400 1515
+NoConn ~ 1700 1515
+NoConn ~ 1600 1515
+NoConn ~ 1500 1515
+NoConn ~ 1300 1515
+$Comp
+L power:GND #PWR0119
+U 1 1 5F762C16
+P 850 1090
+F 0 "#PWR0119" H 850 840 50  0001 C CNN
+F 1 "GND" H 968 1009 50  0000 C CNN
+F 2 "" H 850 1090 50  0001 C CNN
+F 3 "" H 850 1090 50  0001 C CNN
+	1    850  1090
+	1    0    0    -1  
+$EndComp
+Text GLabel 850  1000 0    31   UnSpc ~ 0
+3v3
+Wire Wire Line
+	850  1000 950  1000
+Text GLabel 850  905  0    31   UnSpc ~ 0
+SPDIF-OUT
+$Comp
+L ArduinoCd-rescue:fcr684204t-DS-ArduinoCd-rescue J4
+U 1 1 5F6FCDE8
+P 1400 1115
+F 0 "J4" V 1685 1515 50  0000 L CNN
+F 1 "fcr684204t" H 1135 1515 50  0000 L CNN
+F 2 "DS:FCR684204T" H 1355 1055 50  0001 C CNN
+F 3 "" H 1355 1055 50  0000 C CNN
+	1    1400 1115
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

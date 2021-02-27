@@ -5,6 +5,10 @@ Based on the [ATAPIDUINO](http://singlevalve.web.fc2.com/Atapiduino/atapiduino.h
 
 For more details, see project on [hackaday.io](https://hackaday.io/project/176545-arduino-cd-player).
 
+# To do
+* Add opamp buffer after DAC to protect the output (from accidental plugging in other outputs).
+
+
 # Supported IDE CD-ROM drives
 Sources from [ATAPIDUINO](http://singlevalve.web.fc2.com/Atapiduino/atapiduino.htm) and [ArduinoCdPlayer](https://hackaday.io/project/176545-arduino-cd-player) and [here](https://hackaday.io/project/24905-using-old-cd-drive-as-a-music-player):
 
